@@ -1,0 +1,19 @@
+<h1>Employee List</h1>
+
+    <table class="table table-bordered">
+    <thead>
+      <tr style="font-size:30px">
+        <th>id</th>
+        <th>name</th>
+        <th>salary</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let employee of employees" >
+<tr style="font-size:20px">
+    <td>{{employee.id}}</td>
+    <td>{{employee.title}}</td>
+    <td>{{employee.body}}</td>
+    </tr>
+    </tbody>
+</table>
+    
